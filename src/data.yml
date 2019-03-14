@@ -1,26 +1,22 @@
-title: "呆萌的猿"
-beian: " 浙ICP备17058293号-1	"
-gaBeian: "浙公网安备 33010602008898号"
+title: "财务云产品中心"
+beian: " 京ICP备17058293号-1	"
+gaBeian: "北京公网安备 33010602008898号"
 gaBeianHref: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008898"
 boxes:
 - category: 开发社区
   category_id: developerCommunity
   category_icon: '#developerCommunity'
   items:
-  - title: SegmentFault
+  - title: 禅道
     logo: '#segmentfault-icon'
     href: https://segmentfault.com/
     desc: SegmentFault ( www.sf.gg ) 是中国领先的开发者社区。
           我们希望为中文开发者提供一个纯粹、高质的技术交流平台，
           与开发者一起学习、交流与成长，创造属于开发者的时代！
-  - logo: '#github'
-    href: https://github.com
-    title: Github
-    desc: 面向开源及私有软件项目的git托管平台
   - logo: '#gitlab'
-    href: https://gitlab.com/
+    href: https://git.yonyou.com
     title: Gitlab
-    desc: GitLab是一个利用Ruby on Rails开发的开源应用程序，实现一个自托管的Git项目仓库。
+    desc: 面向开源及私有软件项目的git托管平台
 - category: 博客
   category_id: blog
   category_icon: '#Blog'
@@ -42,38 +38,37 @@ boxes:
     href: https://wiki.yfd.im/
     title: DiamondYuan's Wiki
     desc: 我的个人知识库,基于tiddlywiki。用于管理一些零碎的小知识。
-- category: 工具
-  category_id: tools
-  category_icon: '#tools'
+- category: 测试环境
+  category_id: stages
+  category_icon: '#stages'
   items:
   - logo: '#processon-icon'
-    href: https://www.processon.com/
-    title: ProcessOn
-    desc: 免费在线作图，实时协作
+    href: http://10.16.21.68:9000/
+    title: Stage1
+    desc: Stage1
   - logo: '#json'
-    href: https://www.json.cn/
-    title: JSON在线解析
-    desc: JSON在线解析及格式化验证 - JSON.cn
+    href: http://10.16.21.68:9001/
+    title: Stage2
+    desc: Stage2
   - logo: '#jsontoyaml'
-    href: https://www.json2yaml.com/
-    title: JSON转YAML
-    desc: JSON在线转YAML
+    href: http://10.16.21.68:9002/
+    title: Stage3
+    desc: Stage3
   - logo: '#jinaconvert-icon'
-    href: http://www.jinaconvert.com/cn/
-    title: 在线图片转化
-    desc: 将您的图片转换成多种图片格式。
-          JPG, PNG, GIF, BMP, TIFF, ICO, SVG和更多图片格式!
+    href: http://10.16.21.68:9004/
+    title: Stage4
+    desc: Stage4
   - logo: '#can-i-use-icon'
-    href: https://caniuse.com/
-    title: Can I Use
-    desc: Web前端兼容性列表
-  - href: http://asciiflow.com/
+    href: http://10.16.21.68:9005/
+    title: Stage5
+    desc: Stage5
+  - href: http://10.16.21.68:9006/
     logo: '#asciiflow-icon'
-    title: ASCIIFlow
-    desc: 绘制纯文本的ASCIIFlow图,Geek 风格的反璞归真。
-  - href: https://regexper.com/
+    title: Stage6
+    desc: Stage6
+  - href: http://10.16.21.68:9007/
     logo: '#regexper-icon'
-    title: Regexper
-    desc: 解析正则表达式并且绘制流程图。
+    title: Stage7
+    desc: Stage7
 
 
