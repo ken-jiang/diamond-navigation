@@ -3,17 +3,9 @@
     <footer class="footer">
       <div class="copyright">
         <div>
-          Copyright © 2018- 2018
+          Copyright @ 2019- 2020
 
-          <span v-if="beian">
-            {{beian}}
-          </span>
-
-          <a v-if="gaBeian" :href="gaBeianHref">
-            <img src="/static/ga-beian-icon.png"/>
-            {{gaBeian}}
-          </a>
-          <a href="https://yfd.im">呆萌的猿 博客</a>
+          <a href="http://nav.cwy.com">政府财务云产品中心</a>
         </div>
       </div>
     </footer>

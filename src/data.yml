@@ -1,13 +1,10 @@
 title: "财务云产品中心"
-beian: " 京ICP备17058293号-1	"
-gaBeian: "北京公网安备 33010602008898号"
-gaBeianHref: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008898"
 boxes:
-- category: 公共服务
+- category: "公共服务"
   category_id: fileshare
   category_icon: '#fileshare'
   items:
-  - title: 禅道
+  - title: "禅道"
     logo: '#chandao'
     href: http://zentao.cwy.com
     desc: 禅道
@@ -15,36 +12,36 @@ boxes:
     logo: '#viki'
     href: http://wiki.cwy.com
     desc: wiki
-  - title: 文件共享
+  - title: "文件共享"
     logo: '#paopao2'
     href: http://sw.cwy.com
     desc: jenkins 构建安装包
 
-- category: 部署环境
+- category: "部署环境"
   category_id: deploy
   category_icon: '#deploy'
   items:
-  - title: jenkins
+  - title: 'build'
     logo: '#gen1'
     href: http://build.cwy.com
     desc: 财务云构建环境
-  - title: jen 
+  - title: 'deploy'
     logo: '#gen1'
     href: http://deploy.cwy.com
-    desc: 测试及开发环境部署
+    desc: 测试及开发部署
 
-- category: 测试环境
+- category: "测试环境"
   category_id: stages
   category_icon: '#stages'
   items:
   - logo: '#processon-icon'
     href: http://stage0.cwy.com
     title: Stage0
-    desc: Stage0
+    desc: 非多区划 Oracle 环境
   - logo: '#processon-icon'
     href: http://stage1.cwy.com
     title: Stage1
-    desc: Stage1
+    desc: 非多区划 MySQL 环境
   - logo: '#processon-icon'
     href: http://stage2.cwy.com
     title: Stage2
@@ -56,7 +53,7 @@ boxes:
   - logo: '#processon-icon'
     href: http://stage4.cwy.com
     title: Stage4
-    desc: Stage4
+    desc: 多区划 PostgreSQL
   - logo: '#processon-icon'
     href: http://stage5.cwy.com
     title: Stage5
@@ -82,28 +79,3 @@ boxes:
     logo: '#Blog'
     href: http://dev1.cwy.com/
     desc: 多区划开发环境
-#  - logo: '#gitlab'
-#    href: https://git.yonyou.com
-#    title: Gitlab
-#    desc: 面向开源及私有软件项目的git托管平台
-#- category: 博客
-#  category_id: blog
-#  category_icon: '#Blog'
-#  items:
-#  - logo: '#jamespan-icon'
-#    href: https://blog.jamespan.me/
-#    title: James Pan's Blog
-#    desc: 云数据库平台技术专家，客居杭州。喜欢学习研究新技术，然后中途弃坑。擅长构建无状态的分布式服务，更擅长让分布式系统进入无服务状态。不会用
-#      Git 只会用 SourceTree，没有 JetBrains 全家桶就写不出代码，没有 Google 和 StackOverflow 就解决不了技术问题。
-#- category: 参考文档
-#  category_id: document
-#  category_icon: '#document'
-#  items:
-#  - logo: '#vuejs'
-#    href: https://cn.vuejs.org/index.html
-#    title: Vue.js
-#    desc: 渐进式JavaScript 框架
-#  - logo: '#yfd-wiki-icon'
-#    href: https://wiki.yfd.im/
-#    title: DiamondYuan's Wiki
-#    desc: 我的个人知识库,基于tiddlywiki。用于管理一些零碎的小知识。
